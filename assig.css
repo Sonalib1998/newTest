@@ -1,0 +1,113 @@
+#header {
+    background: black;
+    color: white;
+}
+#menu {
+    list-style: none;
+    margin: 0;
+    padding-top: 0;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    color: white;
+    padding: 15px 10px;
+    display: block;
+}
+#menu li a:hover {
+    color: grey;
+}
+#banner {
+    background: url("head.jpg") no-repeat 0 0;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.banner-title {
+margin-left: 200px;
+    margin-top: 150px;
+}
+.banner-title h1{
+font-size: 60px;
+}
+button {
+    width: 260px;
+    height: 40px;
+    background: olive;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: olivedrab;
+}
+.service-box  img{
+    width: 340px;
+}
+.container-part img {
+    width: 340px;
+}
+#menu2 {
+    list-style: none;
+    margin: 0;
+    padding-top: 0;
+}
+#menu2 li {
+    display: inline-block;
+}
+#menu2 li a {
+    color: black;
+    padding: 0px 3px;
+    display: block;
+    text-decoration: underline;
+}
+#menu2 li a:hover {
+    color: grey;
+}
+#menu2::after {
+    background-color: grey;
+    content: "";
+    display: block;
+    width: 1000px;
+    height: 3px;
+    margin: 20px auto;
+    opacity: 0.3;
+}
+#menu3 {
+    list-style: none;
+    margin: 0;
+    padding-top: 0;
+}
+#menu3 li {
+    display: inline-block;
+}
+#menu3 li a {
+    color: black;
+    padding: 0px 3px;
+    display: block;
+    text-decoration: underline;
+}
+#menu3 li a:hover {
+    color: grey;
+}
+@media (max-width:560px) {
+    .banner-title {
+        margin-left: 100px;
+    }
+    #banner {
+        background: url("head.jpg") no-repeat 0 0;
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+    }
+    #menu2::after {
+        background-color: grey;
+        content: "";
+        display: block;
+        width: 200px;
+        height: 3px;
+        margin: 20px auto;
+        opacity: 0.3;
+    }
+}
